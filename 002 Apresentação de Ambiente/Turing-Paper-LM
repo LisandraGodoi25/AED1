@@ -1,0 +1,28 @@
+Nesta obra fundamental de 1936, Alan Turing apresenta o conceito de números computáveis, definindo-os como valores cujos decimais podem ser calculados por 
+um dispositivo mecânico. O autor introduz a máquina de Turing, um modelo teórico que utiliza uma fita e estados internos para processar símbolos, estabelecendo 
+as bases da teoria da computação. Através desse sistema, ele demonstra a existência de uma máquina universal capaz de simular qualquer outro processo algorítmico.
+O texto prova que o problema da decisão de Hilbert não possui solução, revelando que certas questões matemáticas não podem ser resolvidas por métodos puramente mecânicos. 
+Por fim, Turing estabelece uma equivalência entre sua definição de computabilidade e a calculabilidade efetiva proposta por Alonzo Church.
+
+
+• Números Computáveis: São números cujas casas decimais podem ser calculadas por um processo mecânico finito. Basicamente, se você consegue escrever um "manual de instruções"
+para encontrar cada dígito de um número, ele é computável (como o π ou o e).
+
+
+• A "Máquina de Turing": Turing imaginou um dispositivo (que hoje chamamos de Máquina de Turing) para modelar como um ser humano faz cálculos. Ela é composta por:
+    ◦ Uma fita infinita: Dividida em quadrados, funcionando como um papel de rascunho para escrever e ler símbolos.
+    ◦ Uma cabeça de leitura: Que só consegue "ver" um quadrado da fita por vez.
+    ◦ Estados de espírito (Configurações): A máquina possui diferentes estados internos que determinam o que ela fará a seguir, dependendo do símbolo que está lendo.
+
+
+• Funcionamento Básico: A cada passo, a máquina pode realizar apenas três ações simples: apagar ou escrever um símbolo, mover a fita para a esquerda ou direita, 
+e mudar seu estado interno. Turing argumenta que qualquer cálculo complexo pode ser quebrado nessas operações elementares.
+
+
+• Máquina Computadora Universal: Este é o conceito ancestral do computador moderno. Turing demonstrou que é possível criar uma única máquina que pode realizar o 
+trabalho de qualquer outra máquina, desde que receba uma fita com as instruções (o "programa") dessa outra máquina.
+
+
+• O Limite da Computação (O Problema da Decisão): Turing provou que existem problemas que os computadores nunca conseguirão resolver. Ele mostrou que não existe 
+um método geral para determinar, de antemão, se uma máquina vai terminar um cálculo ou se vai ficar rodando para sempre (o que ele relacionou ao 
+Entscheidungsproblem da lógica).
