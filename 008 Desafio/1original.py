@@ -13,9 +13,11 @@ secret_Number = randint(1,50)
 max = int(input("Insira o número máximo de tentativas:"))
 ##print(secret_Number)
 
-tentativas = 1
+tentativas = 0
 
 while True:
+
+    tentativas += 1
 
     try:
         user_Guess = int(input("Send your guess: "))
